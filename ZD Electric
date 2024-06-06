@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z.D. Electric LLC</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f9fa; }
+        header { background-color: #e0e0e0; color: #1a1a1a; text-align: center; padding: 1em 0; }
+        nav { display: flex; justify-content: center; background-color: #ffffff; padding: 1em; }
+        nav a { color: #1a1a1a; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        section { padding: 2em; text-align: center; }
+        footer { background-color: #e0e0e0; color: #1a1a1a; text-align: center; padding: 1em 0; position: fixed; width: 100%; bottom: 0; }
+        .container { max-width: 1200px; margin: auto; }
+        .about, .projects, .contact { margin-bottom: 2em; }
+        .projects img, .projects video { width: 100%; max-width: 300px; margin: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Z.D. Electric LLC</h1>
+        <p>Your trusted partner for electrical solutions</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Z.D. Electric LLC. We are dedicated to providing top-notch electrical services for residential and commercial properties. Our team of experienced electricians is committed to ensuring your safety and satisfaction.</p>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <p>At Z.D. Electric LLC, we take pride in our work. Here are some of the projects we have completed:</p>
+            <img src="IMG_0613.jpeg" alt="Project Image 1">
+            <img src="IMG_0563.jpeg" alt="Project Image 2">
+            <img src="IMG_0668.jpeg" alt="Project Image 3">
+            <img src="IMG_0670.jpeg" alt="Project Image 4">
+            <img src="IMG_0669.jpeg" alt="Project Image 5">
+            <img src="IMG_0923.jpeg" alt="Project Image 6">
+            <img src="IMG_2884.jpeg" alt="Project Image 7">
+            <img src="IMG_3138.jpeg" alt="Project Image 8">
+            <img src="IMG_3488.jpeg" alt="Project Image 9">
+            <img src="IMG_4206.jpeg" alt="Project Image 10">
+            <video controls>
+                <source src="IMG_0924.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have any questions or need our services? Reach out to us!</p>
+            <p>Email: info@zdelectricllc.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Z.D. Electric LLC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
